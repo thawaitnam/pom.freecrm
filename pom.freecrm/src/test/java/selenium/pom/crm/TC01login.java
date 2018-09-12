@@ -31,11 +31,12 @@ public class TC01login extends TestBase{
 	}
 
 	@Test
-	 public static void test() throws IOException
+	 public static void test() throws IOException, InterruptedException
 	 {
 	    homepage=new HomePage();
 	    loginpage=new LoginPage();
 	    homepage=loginpage.login();
+	    Thread.sleep(3000);
 	    loginpage= homepage.logout();
 	    
 	 }

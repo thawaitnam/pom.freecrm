@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="57350" started-at="2018-08-31T12:52:23Z" finished-at="2018-08-31T12:53:20Z">
+  <suite name="Default suite" duration-ms="62259" started-at="2018-08-31T13:34:56Z" finished-at="2018-08-31T13:35:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="57350" started-at="2018-08-31T12:52:23Z" finished-at="2018-08-31T12:53:20Z">
+    <test name="Default test" duration-ms="62259" started-at="2018-08-31T13:34:56Z" finished-at="2018-08-31T13:35:59Z">
       <class name="selenium.pom.crm.TC01login">
-        <test-method status="PASS" signature="login()[pri:0, instance:selenium.pom.crm.TC01login@271053e1]" name="login" is-config="true" duration-ms="17552" started-at="2018-08-31T07:52:23Z" finished-at="2018-08-31T07:52:40Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:selenium.pom.crm.TC01login@271053e1]" name="login" is-config="true" duration-ms="17650" started-at="2018-08-31T08:34:56Z" finished-at="2018-08-31T08:35:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:selenium.pom.crm.TC01login@271053e1]" name="test" duration-ms="39623" started-at="2018-08-31T07:52:40Z" finished-at="2018-08-31T07:53:20Z">
+        <test-method status="FAIL" signature="test()[pri:0, instance:selenium.pom.crm.TC01login@271053e1]" name="test" duration-ms="44451" started-at="2018-08-31T08:35:14Z" finished-at="2018-08-31T08:35:59Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: //a[contains(text(),'Logout')]
@@ -19,8 +19,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'NUMPC', ip: '10.0.0.12', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 18668, moz:profile: C:\Users\Num\AppData\Local\..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 462f7a35-8621-455a-a387-4ff6275a92fe
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 4280, moz:profile: C:\Users\Num\AppData\Local\..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 62a9e21e-4746-4a37-975d-c2ffbf78c34c
 *** Element info: {Using=xpath, value=//a[contains(text(),'Logout')]}]]>
             </message>
             <full-stacktrace>
@@ -29,8 +29,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
 System info: host: 'NUMPC', ip: '10.0.0.12', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_31'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 18668, moz:profile: C:\Users\Num\AppData\Local\..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 462f7a35-8621-455a-a387-4ff6275a92fe
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 54.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:processID: 4280, moz:profile: C:\Users\Num\AppData\Local\..., pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.2, rotatable: false, specificationLevel: 0, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 62a9e21e-4746-4a37-975d-c2ffbf78c34c
 *** Element info: {Using=xpath, value=//a[contains(text(),'Logout')]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
@@ -49,8 +49,8 @@ Session ID: 462f7a35-8621-455a-a387-4ff6275a92fe
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at pages.HomePage.logout(HomePage.java:32)
-	at selenium.pom.crm.TC01login.test(TC01login.java:39)
+	at pages.HomePage.logout(HomePage.java:24)
+	at selenium.pom.crm.TC01login.test(TC01login.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
